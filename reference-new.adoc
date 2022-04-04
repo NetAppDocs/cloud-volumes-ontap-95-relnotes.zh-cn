@@ -1,0 +1,268 @@
+---
+sidebar: sidebar 
+permalink: reference-new.html 
+keywords: 'what"s new, new, features, release notes, enhancements' 
+summary: Cloud Volumes ONTAP 9.5 提供了多项新功能和增强功能。 
+---
+= Cloud Volumes ONTAP 9.5 中的新增功能
+:hardbreaks:
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Cloud Volumes ONTAP 9.5 提供了多项新功能和增强功能。
+
+
+NOTE: 最新版本的 Cloud Manager 还引入了其他功能和增强功能。请参见 https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/whats-new.html["Cloud Manager 发行说明"] 了解详细信息。
+
+
+
+== 9.5 P11 （ 2020 年 3 月 6 日）
+
+适用于 Cloud Volumes ONTAP 的 9.5 P11 修补版本现在可通过 Cloud Manager 3.8 及更高版本获得。Cloud Manager 将提示您将现有系统升级到此修补程序版本。 https://mysupport.netapp.com/site/products/all/details/cloud-volumes-ontap/downloads-tab/download/62632/9.5P11["查看 P11 修补程序中已修复的错误列表"^] （需要登录 NetApp 支持站点）。
+
+
+
+== 9.5 P10 （ 2020 年 1 月 12 日）
+
+适用于 Cloud Volumes ONTAP 的 9.5 P10 修补版本现在可通过 Cloud Manager 获得。Cloud Manager 将提示您将现有系统升级到此修补程序版本。 https://mysupport.netapp.com/site/products/all/details/cloud-volumes-ontap/downloads-tab/download/62632/9.5P10["查看 P10 修补程序中已修复的错误列表"^] （需要登录 NetApp 支持站点）。
+
+
+
+== 9.5 P9 修补程序（ 2019 年 11 月 17 日）
+
+适用于 Cloud Volumes ONTAP 的 9.5 P9 修补版本现在可通过 Cloud Manager 获得。Cloud Manager 将提示您将现有系统升级到此修补程序版本。 https://mysupport.netapp.com/site/products/all/details/cloud-volumes-ontap/downloads-tab/download/62632/9.5P9["查看 P9 修补程序中已修复的错误列表"^] （需要登录 NetApp 支持站点）。
+
+
+
+== 9.5 P8 修补程序（ 2019 年 10 月 6 日）
+
+适用于 Cloud Volumes ONTAP 的 9.5 P8 修补版本现已推出。Cloud Manager 将提示您将现有系统升级到此修补程序版本。 https://mysupport.netapp.com/site/products/all/details/cloud-volumes-ontap/downloads-tab/download/62632/9.5P8["查看 P8 修补程序中已修复的错误列表"^] （需要登录 NetApp 支持站点）。
+
+
+
+== 9.5 P6 修补程序（ 2019 年 7 月 16 日）
+
+适用于 Cloud Volumes ONTAP 的 9.5 P6 修补程序版本现已推出。Cloud Manager 将提示您将现有系统升级到此修补程序版本。 https://mysupport.netapp.com/site/products/all/details/cloud-volumes-ontap/downloads-tab/download/62632/9.5P6["查看 P6 修补程序中已修复的错误列表"^] （需要登录 NetApp 支持站点）。
+
+
+NOTE: Cloud Manager 会提示您升级到包含 Cloud Volumes ONTAP 重要修复程序的特定 ONTAP 修补程序版本。因此，您可能会在本发行说明中注意到修补程序版本之间存在差距。我们仅列出 Cloud Manager 提供给您的修补程序。
+
+
+
+== 9.5 P4 修补程序（ 2019 年 5 月 16 日）
+
+适用于 Cloud Volumes ONTAP 的 9.5 P4 修补版本现已推出。Cloud Manager 将提示您将现有系统升级到此修补程序版本。 https://mysupport.netapp.com/site/products/all/details/cloud-volumes-ontap/downloads-tab/download/62632/9.5P4["查看 P4 修补程序中已修复的错误列表"^] （需要登录 NetApp 支持站点）。
+
+
+
+== 支持 AWS C2S 环境（ 2019 年 5 月 2 日）
+
+Cloud Volumes ONTAP 9.5 和 Cloud Manager 3.6.4 现已在美国推出通过 AWS Commercial Cloud Services （ C2S ）环境实现智能社区（ IC ）。您可以在 C2S 中部署 HA 对和单节点系统。
+
+https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-getting-started-aws-c2s.html["开始使用 AWS C2S 环境"^]
+
+
+
+== 9.5 P3 修补程序（ 2019 年 4 月 25 日）
+
+现在可以使用适用于 Cloud Volumes ONTAP 的 9.5 P3 修补版本。 https://mysupport.netapp.com/site/products/all/details/cloud-volumes-ontap/downloads-tab/download/62632/9.5P3["查看 P3 修补程序中已修复的错误列表"^] （需要登录 NetApp 支持站点）。
+
+
+
+== 9.5 P2 修补程序（ 2019 年 4 月 10 日）
+
+适用于 Cloud Volumes ONTAP 的 9.5 P2 修补版本现已推出。此修补程序包括错误修复以及对具有新 AWS EC2 实例类型的 Flash Cache 的支持。Cloud Manager 将提示您将现有系统升级到此修补程序版本。
+
+https://mysupport.netapp.com/site/products/all/details/cloud-volumes-ontap/downloads-tab/download/62632/9.5P2["单击此处查看 P2 修补程序中已修复的错误"^] （需要登录 NetApp 支持站点）。
+
+
+
+=== Flash Cache 支持新的 EC2 实例类型
+
+高级版和 BYOL 许可证现在支持以下 EC2 实例类型：
+
+* c5d.4xlarge
+* c5d.9x 大型
+* r5d.2xlarge
+
+
+这些实例类型包括本地 NVMe 存储， Cloud Volumes ONTAP 将其用作 _Flash Cache_ 。Flash Cache 通过实时智能缓存最近读取的用户数据和 NetApp 元数据来加快数据访问速度。它适用于随机读取密集型工作负载，包括数据库，电子邮件和文件服务。
+
+必须在所有卷上禁用数据压缩，才能利用 Flash Cache 性能改进功能。您可以在从 Cloud Manager 创建卷时选择无存储效率，也可以先创建卷，然后再创建卷 http://docs.netapp.com/ontap-9/topic/com.netapp.doc.dot-cm-vsmg/GUID-8508A4CB-DB43-4D0D-97EB-859F58B29054.html["使用命令行界面禁用数据压缩"^]。
+
+
+NOTE: Cloud Volumes ONTAP 不支持在重新启动后重新恢复缓存。
+
+
+
+== Azure Central US 地区的 HA 支持（ 2019 年 3 月 25 日）
+
+HA 对现在在 Azure 的美国中部地区受支持。
+
+https://cloud.netapp.com/cloud-volumes-global-regions["查看受支持 Azure 区域的完整列表"^]。
+
+
+
+== 9.5 P1 修补程序（ 2019 年 3 月 18 日）
+
+现在，适用于 Cloud Volumes ONTAP 的 9.5 P1 修补版本可用于所有配置。Cloud Manager 将提示您将现有系统升级到此修补程序版本。
+
+如果您在 Azure 中已有 HA 对， NetApp 将与您联系以帮助您应用 P1 修补程序版本。
+
+https://mysupport.netapp.com/site/products/all/details/cloud-volumes-ontap/downloads-tab/download/62632/9.5P1["单击此处可查看 P1 修补程序中已修复的错误"^] （需要登录 NetApp 支持站点）。
+
+
+
+== Cloud Volumes ONTAP HA 现已在 Azure 中正式上市（ 2019 年 3 月 18 日）
+
+随着 9.5 P1 修补程序的发布， Azure 中的 HA 对现在已全面上市（ GA ）。不再需要预览版许可证。
+
+GA 版本可在大多数 Azure 地区使用，但以下情况除外：
+
+* 位于美国中部
+* 位于美国中部北部
+* 美国政府区域
+* 美国西部
+* 位于美国西部
+
+
+在这些地区进行维护可以防止创建 Cloud Volumes ONTAP 并防止发生故障转移。我们计划在维护完成后立即为这些地区提供支持。
+
+https://cloud.netapp.com/cloud-volumes-global-regions["查看支持的 Azure 区域的完整列表"^]。
+
+
+
+== 适用于 AWS 和 Azure 的 9.5 GA （ 2019 年 2 月 4 日）
+
+Cloud Volumes ONTAP 9.5 的通用（ GA ）版本现在可在 AWS 和 Microsoft Azure 中使用（仅适用于 Azure 中的单节点系统）。GA 版本包括稳定性修复， AWS 中新增和弃用的功能以及对系统容量限制的更改。
+
+
+
+=== 所有高级版和 BYOL 配置的容量限制为 368 TB
+
+Cloud Volumes ONTAP 高级版和 BYOL 的系统容量限制现在在所有配置中均为 368 TB ： AWS 和 Azure 中的单节点和 HA 。
+
+对于某些配置，磁盘限制会阻止您单独使用磁盘来达到 368 TB 容量限制。在这些情况下，您可以通过达到 368 TB 容量限制 https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/concept-data-tiering.html["将非活动数据分层到对象存储"^]。例如， Azure 中的单节点系统可能具有 252 TB 基于磁盘的容量，从而在 Azure Blob 存储中最多允许 116 TB 的非活动数据。
+
+有关磁盘限制的信息，请参见 link:reference-storage-limits.html["存储限制"]。
+
+
+
+=== 支持 AWS 中的 M5 和 R5 实例
+
+现在， Cloud Volumes ONTAP 支持 M5 和 R5 系列中的多种实例类型：
+
+[cols="4*"]
+|===
+| 探索 | 标准 | 高级版 | BYOL 
+
+
+| m5.xlarge  a| 
+* m5.2xlarge
+* r5.xlarge
+
+ a| 
+* m5.4xlarge
+* r5.2 个大型
+
+ a| 
+* m5.xlarge
+* m5.2xlarge
+* m5.4xlarge
+* r5.xlarge
+* r5.2 个大型
+
+
+|===
+这些实例使用基于 KVM 技术的虚拟机管理程序。因此，与其他实例类型相比，这些实例支持的数据磁盘数量更少：对于单节点系统，最多 24 个数据磁盘；对于 HA 对，最多 21 个数据磁盘。 link:reference-storage-limits.html["了解存储限制"]。
+
+了解更多信息 https://aws.amazon.com/ec2/instance-types/m5/["M5 实例"^] 和 https://aws.amazon.com/ec2/instance-types/r5/["R5 实例"^]。
+
+
+
+=== 支持 AWS 中的 NetApp 卷加密
+
+https://www.netapp.com/us/media/ds-3899.pdf["NetApp 卷加密（ NVE ）"^] 是一种基于软件的技术，用于一次对一个卷上的空闲数据进行加密。数据， Snapshot 副本和元数据已加密。数据访问由一个唯一的 XTS-AES-256 密钥提供，每个卷一个。
+
+目前， Cloud Volumes ONTAP 通过外部密钥管理服务器支持 NetApp 卷加密。不支持板载密钥管理器。您可以在中找到支持的密钥管理器 http://mysupport.netapp.com/matrix["NetApp 互操作性表工具"^] 在 * 密钥管理器 * 解决方案下。
+
+您需要从命令行界面设置 NetApp 卷加密。然后，您可以使用命令行界面或 System Manager 对特定卷启用加密。Cloud Manager 不支持从其用户界面及其 API 进行 NetApp 卷加密。
+
+https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-encrypting-volumes.html["了解如何设置 NetApp 卷加密"^]
+
+
+NOTE: NetApp 卷加密是一种与 Cloud Volumes ONTAP 加密不同的加密技术，它在聚合级别对数据进行加密，现已弃用。无法在这两种加密技术之间进行升级。请参见 <<Deprecated features in AWS>> 有关详细信息 ...
+
+
+
+=== AWS 中已弃用的功能
+
+9.5 版不再支持两项功能。
+
+
+
+==== Cloud Volumes ONTAP 聚合级加密现在仅支持 AWS 原生磁盘加密
+
+不再支持使用外部密钥管理器对聚合进行空闲数据加密。如果您当前正在使用此功能，并且要升级，则必须启动新的 9.5 系统，然后再启动 https://docs.netapp.com/us-en/cloud-manager-replication/task-replicating-data.html["复制数据"] 。
+
+使用其他方法仍支持空闲数据加密。您可以使用 NetApp 卷加密或 AWS 密钥管理服务（ KMS ）对数据进行加密。 https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/concept-security.html["了解有关空闲数据加密的更多信息"^]。
+
+
+
+==== 不再支持 c4.2xlarge
+
+9.5 版不支持 c4.2xlarge 实例类型。如果您当前正在使用此实例类型，则必须首先使用 https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-change-ec2-instance.html["更改为新实例类型"] 升级到 9.5 版之前。
+
+
+
+== 9.5 RC1 for Azure （ 2018 年 12 月 4 日）
+
+Cloud Volumes ONTAP 9.5 RC1 现在可在 Microsoft Azure 中使用。9.5 版将稍后在 AWS 中提供。
+
+
+
+=== 在 Microsoft Azure 中预览高可用性（ HA ）对
+
+现在可以在 Microsoft Azure 中预览 Cloud Volumes ONTAP HA 对。HA 对可在云环境发生故障时提供企业级可靠性和持续运行。与物理 ONTAP 集群类似， Azure HA 对中的存储在两个节点之间共享。
+
+Azure 中的 HA 对可作为预览。您可以通过 ng-Cloud-Volume-ONTAP-preview@netapp.com 联系我们来申请预览许可证。
+
+https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/concept-ha-azure.html["详细了解 Azure 中的 HA 对"^]。
+
+
+
+=== 提高了 Azure 中的网络连接性能
+
+Cloud Volumes ONTAP 系统现在可通过启用 https://docs.microsoft.com/en-us/azure/virtual-network/create-vm-accelerated-networking-cli["加速网络连接"^] 在 Azure 中在升级到 9.5 以及部署新的 9.5 系统时， Cloud Manager 可启用加速网络连接。
+
+
+
+=== 支持新的 Azure 区域
+
+现在，您可以在法国中部地区部署 Cloud Volumes ONTAP 。
+
+
+
+=== 支持 Azure 中的 NetApp 卷加密
+
+https://www.netapp.com/us/media/ds-3899.pdf["NetApp 卷加密（ NVE ）"^] 是一种基于软件的技术，用于一次对一个卷上的空闲数据进行加密。数据， Snapshot 副本和元数据已加密。数据访问由一个唯一的 XTS-AES-256 密钥提供，每个卷一个。
+
+目前， Cloud Volumes ONTAP 通过外部密钥管理服务器支持 NetApp 卷加密。不支持板载密钥管理器。您可以在中找到支持的密钥管理器 http://mysupport.netapp.com/matrix["NetApp 互操作性表工具"^] 在 * 密钥管理器 * 解决方案下。
+
+您需要从命令行界面设置 NetApp 卷加密。然后，您可以使用命令行界面或 System Manager 对特定卷启用加密。Cloud Manager 目前不支持 NetApp 卷加密。
+
+https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-encrypting-volumes.html["了解如何设置 NetApp 卷加密"^]
+
+
+
+== 升级说明
+
+* Cloud Volumes ONTAP 升级必须从 Cloud Manager 完成。您不应使用 System Manager 或命令行界面升级 Cloud Volumes ONTAP 。这样做可能会影响系统稳定性。
+* 您可以从 9.4 版升级到 Cloud Volumes ONTAP 9.5 。
+* 升级单节点系统会使系统脱机长达 25 分钟，在此期间 I/O 会中断。
+* 升级 HA 对无中断， I/O 不会中断。在此无中断升级过程中，每个节点会同时进行升级，以继续为客户端提供 I/O 。
+
