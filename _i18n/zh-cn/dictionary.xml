@@ -153,7 +153,6 @@
   <block id="9c4369ea6b2e29931f30698d49e87679" category="summary">Cloud Volumes ONTAP 9.5 提供了多项新功能和增强功能。</block>
   <block id="eefe5eb049dc65c85c62e0f1c7752611" category="doc">Cloud Volumes ONTAP 9.5 中的新增功能</block>
   <block id="f9d74313da16b2bb412c1d7c5efd0534" category="inline-link">Cloud Manager 发行说明</block>
-  <block id="92148156be2e7b9d379fd43d80e090f2" category="admonition">最新版本的 Cloud Manager 还引入了其他功能和增强功能。请参见<block ref="90dab48f3d9f578c50a55c05bccf8b05" category="inline-link-rx"></block> 了解详细信息。</block>
   <block id="1f1c990197b8c2e1acd21782391ae66e" category="section-title">9.5 P11 （ 2020 年 3 月 6 日）</block>
   <block id="4d51ff14f4691186785e9ce841b8db7c" category="inline-link">查看 P11 修补程序中已修复的错误列表</block>
   <block id="b23d51b37d4e276eab6bdf40e900ffa6" category="paragraph">适用于 Cloud Volumes ONTAP 的 9.5 P11 修补版本现在可通过 Cloud Manager 3.8 及更高版本获得。Cloud Manager 将提示您将现有系统升级到此修补程序版本。<block ref="dd90a6fc2c06f7c37a1897e712403f0e" category="inline-link-rx"></block> （需要登录 NetApp 支持站点）。</block>
@@ -402,4 +401,5 @@
   <block id="ad203e818e0c9d7f42f1c260b33875f3" category="sidebar">云网络研讨会</block>
   <block id="117bdbda976fe8b3212bc3b6327a0a1b" category="sidebar">Cloud Volumes ONTAP</block>
   <block id="dea335c9c6f638eb584011e253ad6ca1" category="sidebar">ONTAP 云</block>
+  <block id="62703524dbb4d20326585184b2149d4d" category="admonition">最新版本的 Cloud Manager 还引入了其他功能和增强功能。请参见<block ref="b168941a5dc7eab411ef9dc2c7a220db" category="inline-link-rx"></block> 了解详细信息。</block>
 </blocks>
