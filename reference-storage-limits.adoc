@@ -6,6 +6,7 @@ summary: Cloud Volumes ONTAP 具有存储配置限制，可提供可靠的操作
 ---
 = 存储限制
 :hardbreaks:
+:allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 
