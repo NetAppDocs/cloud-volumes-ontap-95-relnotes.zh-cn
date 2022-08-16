@@ -398,4 +398,5 @@
   <block id="dea335c9c6f638eb584011e253ad6ca1" category="sidebar">ONTAP 云</block>
   <block id="62703524dbb4d20326585184b2149d4d" category="admonition">最新版本的 Cloud Manager 还引入了其他功能和增强功能。请参见<block ref="b168941a5dc7eab411ef9dc2c7a220db" category="inline-link-rx"></block> 了解详细信息。</block>
   <block id="33f66f5b18b24875dca7a81c8f84c5b9" category="cell">896 TiB</block>
+  <block id="7ff191df90fac0fa94ab5c2b5101a5e9" category="sidebar">所有 Cloud Manager 文档</block>
 </blocks>

@@ -196,7 +196,7 @@ https://www.netapp.com/us/media/ds-3899.pdf["NetApp 卷加密（ NVE ）"^] 是�
 https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-encrypting-volumes.html["了解如何设置 NetApp 卷加密"^]
 
 
-NOTE: NetApp 卷加密是一种与 Cloud Volumes ONTAP 加密不同的加密技术，它在聚合级别对数据进行加密，现已弃用。无法在这两种加密技术之间进行升级。请参见 <<Deprecated features in AWS>> 有关详细信息 ...
+NOTE: NetApp 卷加密是一种与 Cloud Volumes ONTAP 加密不同的加密技术，它在聚合级别对数据进行加密，现已弃用。无法在这两种加密技术之间进行升级。请参见  features in AWS 有关详细信息 ...
 
 
 
