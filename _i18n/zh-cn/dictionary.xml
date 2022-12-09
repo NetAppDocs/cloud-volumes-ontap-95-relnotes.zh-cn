@@ -139,7 +139,6 @@
   <block id="54df1367cfc6660a61b9fc8a38dd642e" category="paragraph">不支持将 EBS 卷从 Cloud Volumes ONTAP 实例断开，然后将其重新连接到另一个 Cloud Volumes ONTAP 实例。您应使用 Cloud Manager 在实例之间复制数据。</block>
   <block id="2d03060cc88d48d8c65d3a01864614ad" category="section-title">Microsoft Azure 中的已知限制</block>
   <block id="d0e7588890233fc627c7bcaab1e75386" category="paragraph">以下已知限制会影响 Azure 中的 Cloud Volumes ONTAP 。</block>
-  <block id="40f7aa196052206d81d0ee3a44db5c7c" category="section-title">不支持新部署</block>
   <block id="cc429ef436869e43759a68ebf97158a2" category="paragraph">Azure 不再支持 Cloud Volumes ONTAP 9.5 的新部署。您需要部署 Cloud Volumes ONTAP 9.7 。</block>
   <block id="0066e8873a17823db601b98ebbc37dd2" category="section-title">HA 限制</block>
   <block id="7e06c5d5d754bf97499c6ed081fc8e43" category="paragraph">以下限制会影响 Microsoft Azure 中的 Cloud Volumes ONTAP HA 对：</block>
@@ -148,8 +147,6 @@
   <block id="74522068eb4d7b9d888846015e92c07a" category="list-text">某些地区不支持 HA 对。</block>
   <block id="1538d38eb23a96781db500ec7bd30195" category="inline-link">请参见支持的 Azure 区域列表</block>
   <block id="f5b8e6c4c4b082cf610f078e361a727f" category="paragraph"><block ref="1f129df010c594cb0d37bd30745a3820" category="inline-link-rx"></block>。</block>
-  <block id="e4f5b6f59db7bfa0e08c02262ddbd654" category="section-title">按需购买不适用于 CSP 合作伙伴</block>
-  <block id="f2ff5834d93c258f0fc4ad6cf6a17942" category="paragraph">如果您是 Microsoft Cloud 解决方案 Provider （ CSP ）合作伙伴，则无法部署 Cloud Volumes ONTAP Explore ，标准版或高级版，因为 CSP 合作伙伴不支持按需购买订阅。您必须购买许可证并部署 Cloud Volumes ONTAP BYOL 。</block>
   <block id="9c4369ea6b2e29931f30698d49e87679" category="summary">Cloud Volumes ONTAP 9.5 提供了多项新功能和增强功能。</block>
   <block id="eefe5eb049dc65c85c62e0f1c7752611" category="doc">Cloud Volumes ONTAP 9.5 中的新增功能</block>
   <block id="f9d74313da16b2bb412c1d7c5efd0534" category="inline-link">Cloud Manager 发行说明</block>
@@ -399,4 +396,7 @@
   <block id="62703524dbb4d20326585184b2149d4d" category="admonition">最新版本的 Cloud Manager 还引入了其他功能和增强功能。请参见<block ref="b168941a5dc7eab411ef9dc2c7a220db" category="inline-link-rx"></block> 了解详细信息。</block>
   <block id="33f66f5b18b24875dca7a81c8f84c5b9" category="cell">896 TiB</block>
   <block id="7ff191df90fac0fa94ab5c2b5101a5e9" category="sidebar">所有 Cloud Manager 文档</block>
+  <block id="b7a391ba538fb8a6830548a168a702ed" category="section-title">不支持新部署</block>
+  <block id="2f9882645b2c32820ad085240bacb763" category="paragraph-title">对于 HA ，是每个节点的许可证容量限制还是整个 HA 对的许可证容量限制？</block>
+  <block id="fc9a388cd18c69244f22554de6f0d544" category="paragraph-title">对于 AWS 中的 HA 系统，镜像数据是否计入容量限制？</block>
 </blocks>
