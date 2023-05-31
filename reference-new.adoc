@@ -17,7 +17,7 @@ summary: Cloud Volumes ONTAP 9.5 提供了多项新功能和增强功能。
 Cloud Volumes ONTAP 9.5 提供了多项新功能和增强功能。
 
 
-NOTE: 最新版本的 Cloud Manager 还引入了其他功能和增强功能。请参见 https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/whats-new.html["Cloud Manager 发行说明"^] 了解详细信息。
+NOTE: 最新版本的 Cloud Manager 还引入了其他功能和增强功能。请参见 https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/whats-new.html["Cloud Manager 发行说明"^] 了解详细信息。
 
 
 
@@ -64,7 +64,7 @@ NOTE: Cloud Manager 会提示您升级到包含 Cloud Volumes ONTAP 重要修复
 
 Cloud Volumes ONTAP 9.5 和 Cloud Manager 3.6.4 现已在美国推出通过 AWS Commercial Cloud Services （ C2S ）环境实现智能社区（ IC ）。您可以在 C2S 中部署 HA 对和单节点系统。
 
-https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-getting-started-aws-c2s.html["开始使用 AWS C2S 环境"^]
+https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/task-getting-started-aws-c2s.html["开始使用 AWS C2S 环境"^]
 
 
 
@@ -147,7 +147,7 @@ Cloud Volumes ONTAP 9.5 的通用（ GA ）版本现在可在 AWS 和 Microsoft 
 
 Cloud Volumes ONTAP 高级版和 BYOL 的系统容量限制现在在所有配置中均为 368 TB ： AWS 和 Azure 中的单节点和 HA 。
 
-对于某些配置，磁盘限制会阻止您单独使用磁盘来达到 368 TB 容量限制。在这些情况下，您可以通过达到 368 TB 容量限制 https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/concept-data-tiering.html["将非活动数据分层到对象存储"^]。例如， Azure 中的单节点系统可能具有 252 TB 基于磁盘的容量，从而在 Azure Blob 存储中最多允许 116 TB 的非活动数据。
+对于某些配置，磁盘限制会阻止您单独使用磁盘来达到 368 TB 容量限制。在这些情况下，您可以通过达到 368 TB 容量限制 https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/concept-data-tiering.html["将非活动数据分层到对象存储"^]。例如， Azure 中的单节点系统可能具有 252 TB 基于磁盘的容量，从而在 Azure Blob 存储中最多允许 116 TB 的非活动数据。
 
 有关磁盘限制的信息，请参见 link:reference-storage-limits.html["存储限制"]。
 
@@ -193,7 +193,7 @@ https://www.netapp.com/us/media/ds-3899.pdf["NetApp 卷加密（ NVE ）"^] 是�
 
 您需要从命令行界面设置 NetApp 卷加密。然后，您可以使用命令行界面或 System Manager 对特定卷启用加密。Cloud Manager 不支持从其用户界面及其 API 进行 NetApp 卷加密。
 
-https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-encrypting-volumes.html["了解如何设置 NetApp 卷加密"^]
+https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/task-encrypting-volumes.html["了解如何设置 NetApp 卷加密"^]
 
 
 NOTE: NetApp 卷加密是一种与 Cloud Volumes ONTAP 加密不同的加密技术，它在聚合级别对数据进行加密，现已弃用。无法在这两种加密技术之间进行升级。请参见 <<AWS 中已弃用的功能>> 有关详细信息 ...
@@ -208,15 +208,15 @@ NOTE: NetApp 卷加密是一种与 Cloud Volumes ONTAP 加密不同的加密技�
 
 ==== Cloud Volumes ONTAP 聚合级加密现在仅支持 AWS 原生磁盘加密
 
-不再支持使用外部密钥管理器对聚合进行空闲数据加密。如果您当前正在使用此功能，并且要升级，则必须启动新的 9.5 系统，然后再启动 https://docs.netapp.com/us-en/cloud-manager-replication/task-replicating-data.html["复制数据"] 。
+不再支持使用外部密钥管理器对聚合进行空闲数据加密。如果您当前正在使用此功能，并且要升级，则必须启动新的 9.5 系统，然后再启动 https://docs.netapp.com/us-en/bluexp-replication/task-replicating-data.html["复制数据"] 。
 
-使用其他方法仍支持空闲数据加密。您可以使用 NetApp 卷加密或 AWS 密钥管理服务（ KMS ）对数据进行加密。 https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/concept-security.html["了解有关空闲数据加密的更多信息"^]。
+使用其他方法仍支持空闲数据加密。您可以使用 NetApp 卷加密或 AWS 密钥管理服务（ KMS ）对数据进行加密。 https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/concept-security.html["了解有关空闲数据加密的更多信息"^]。
 
 
 
 ==== 不再支持 c4.2xlarge
 
-9.5 版不支持 c4.2xlarge 实例类型。如果您当前正在使用此实例类型，则必须首先使用 https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-change-ec2-instance.html["更改为新实例类型"] 升级到 9.5 版之前。
+9.5 版不支持 c4.2xlarge 实例类型。如果您当前正在使用此实例类型，则必须首先使用 https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/task-change-ec2-instance.html["更改为新实例类型"] 升级到 9.5 版之前。
 
 
 
@@ -232,7 +232,7 @@ Cloud Volumes ONTAP 9.5 RC1 现在可在 Microsoft Azure 中使用。9.5 版将�
 
 Azure 中的 HA 对可作为预览。您可以通过 ng-Cloud-Volume-ONTAP-preview@netapp.com 联系我们来申请预览许可证。
 
-https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/concept-ha-azure.html["详细了解 Azure 中的 HA 对"^]。
+https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/concept-ha-azure.html["详细了解 Azure 中的 HA 对"^]。
 
 
 
@@ -256,7 +256,7 @@ https://www.netapp.com/us/media/ds-3899.pdf["NetApp 卷加密（ NVE ）"^] 是�
 
 您需要从命令行界面设置 NetApp 卷加密。然后，您可以使用命令行界面或 System Manager 对特定卷启用加密。Cloud Manager 目前不支持 NetApp 卷加密。
 
-https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-encrypting-volumes.html["了解如何设置 NetApp 卷加密"^]
+https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/task-encrypting-volumes.html["了解如何设置 NetApp 卷加密"^]
 
 
 
