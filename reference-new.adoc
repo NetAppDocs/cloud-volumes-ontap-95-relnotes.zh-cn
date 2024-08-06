@@ -187,7 +187,7 @@ Cloud Volumes ONTAP 高级版和 BYOL 的系统容量限制现在在所有配置
 
 === 支持 AWS 中的 NetApp 卷加密
 
-https://www.netapp.com/us/media/ds-3899.pdf["NetApp 卷加密（ NVE ）"^] 是一种基于软件的技术，用于一次对一个卷上的空闲数据进行加密。数据， Snapshot 副本和元数据已加密。数据访问由一个唯一的 XTS-AES-256 密钥提供，每个卷一个。
+https://www.netapp.com/pdf.html?item=/media/17070-ds-3899.pdf["NetApp 卷加密（ NVE ）"^] 是一种基于软件的技术、用于一次对一个卷上的空闲数据进行加密。数据， Snapshot 副本和元数据已加密。数据访问由一个唯一的 XTS-AES-256 密钥提供，每个卷一个。
 
 目前， Cloud Volumes ONTAP 通过外部密钥管理服务器支持 NetApp 卷加密。不支持板载密钥管理器。您可以在中找到支持的密钥管理器 http://mysupport.netapp.com/matrix["NetApp 互操作性表工具"^] 在 * 密钥管理器 * 解决方案下。
 
@@ -250,7 +250,7 @@ Cloud Volumes ONTAP 系统现在可通过启用 https://docs.microsoft.com/en-us
 
 === 支持 Azure 中的 NetApp 卷加密
 
-https://www.netapp.com/us/media/ds-3899.pdf["NetApp 卷加密（ NVE ）"^] 是一种基于软件的技术，用于一次对一个卷上的空闲数据进行加密。数据， Snapshot 副本和元数据已加密。数据访问由一个唯一的 XTS-AES-256 密钥提供，每个卷一个。
+https://www.netapp.com/pdf.html?item=/media/17070-ds-3899.pdf["NetApp 卷加密（ NVE ）"^] 是一种基于软件的技术、用于一次对一个卷上的空闲数据进行加密。数据， Snapshot 副本和元数据已加密。数据访问由一个唯一的 XTS-AES-256 密钥提供，每个卷一个。
 
 目前， Cloud Volumes ONTAP 通过外部密钥管理服务器支持 NetApp 卷加密。不支持板载密钥管理器。您可以在中找到支持的密钥管理器 http://mysupport.netapp.com/matrix["NetApp 互操作性表工具"^] 在 * 密钥管理器 * 解决方案下。
 

@@ -213,7 +213,6 @@
   <block id="ca8e9e829d93bddb8047ab19c3089ef0" category="paragraph">了解更多信息<block ref="05d673fac0b9a986c11211dc1faf7e30" category="inline-link-rx"></block> 和<block ref="c013d0365528310657fb8e18da753b04" category="inline-link-rx"></block>。</block>
   <block id="7b56b613537d1df2a1f213faf0010450" category="section-title">支持 AWS 中的 NetApp 卷加密</block>
   <block id="ec8f2d705f8aa5fa3836b9bcd3897d86" category="inline-link">NetApp 卷加密（ NVE ）</block>
-  <block id="a3fbaa9413e5166b2d7e4d1d9f1b1e27" category="paragraph"><block ref="35572189918edc95132c810b5cb50cdc" category="inline-link-rx"></block> 是一种基于软件的技术，用于一次对一个卷上的空闲数据进行加密。数据， Snapshot 副本和元数据已加密。数据访问由一个唯一的 XTS-AES-256 密钥提供，每个卷一个。</block>
   <block id="9ed4a475dd3705157a9fed8811f63ce2" category="inline-link">NetApp 互操作性表工具</block>
   <block id="2b2f4a969a749ecb25f4a60c31ad59e7" category="paragraph">目前， Cloud Volumes ONTAP 通过外部密钥管理服务器支持 NetApp 卷加密。不支持板载密钥管理器。您可以在中找到支持的密钥管理器<block ref="49d81d143d5c8b402603532056154481" category="inline-link-rx"></block> 在 * 密钥管理器 * 解决方案下。</block>
   <block id="940295fb696cf9fb112d7c2bfe38d9b9" category="paragraph">您需要从命令行界面设置 NetApp 卷加密。然后，您可以使用命令行界面或 System Manager 对特定卷启用加密。Cloud Manager 不支持从其用户界面及其 API 进行 NetApp 卷加密。</block>
@@ -377,8 +376,6 @@
   <block id="dd490b81914dd945601e442a41cb4222" category="sidebar">NetApp 社区</block>
   <block id="ff6c37cbc252e306a6b4e390ec13cbc1" category="sidebar">Cloud Central 博客</block>
   <block id="ad203e818e0c9d7f42f1c260b33875f3" category="sidebar">云网络研讨会</block>
-  <block id="117bdbda976fe8b3212bc3b6327a0a1b" category="sidebar">Cloud Volumes ONTAP</block>
-  <block id="dea335c9c6f638eb584011e253ad6ca1" category="sidebar">ONTAP 云</block>
   <block id="33f66f5b18b24875dca7a81c8f84c5b9" category="cell">896 TiB</block>
   <block id="b7a391ba538fb8a6830548a168a702ed" category="section-title">不支持新部署</block>
   <block id="2f9882645b2c32820ad085240bacb763" category="paragraph-title">对于 HA ，是每个节点的许可证容量限制还是整个 HA 对的许可证容量限制？</block>
@@ -394,7 +391,6 @@
   <block id="c5d198b1aeff3237e133fcea60d3039c" category="paragraph">使用其他方法仍支持空闲数据加密。您可以使用 NetApp 卷加密或 AWS 密钥管理服务（ KMS ）对数据进行加密。<block ref="afbe1fb59edcd7d2e2cc1e6be7740d2e" category="inline-link-rx"></block>。</block>
   <block id="0209bacb71424ba104a8bb410d149339" category="paragraph">9.5 版不支持 c4.2xlarge 实例类型。如果您当前正在使用此实例类型，则必须首先使用<block ref="28595755cd198f10eb2d2420963cc9dc" category="inline-link-rx"></block> 升级到 9.5 版之前。</block>
   <block id="1ab4ecc8b83742de5404f0a7e3289a0c" category="paragraph"><block ref="6323bcac8e680fcfc681b7895d7db259" category="inline-link-rx"></block>。</block>
-  <block id="7a45e6298bb69116e2c6db653fb88884" category="sidebar">所有BlueXP文档</block>
   <block id="52009bb7ee17227f566cd26a02caee56" category="inline-link-macro"><block ref="52009bb7ee17227f566cd26a02caee56" category="inline-link-rx"></block></block>
   <block id="a1a9afcf552a769c282769271829889a" category="paragraph"><block ref="a1a9afcf552a769c282769271829889a" category="inline-link-macro-rx"></block></block>
   <block id="f99aa604031e5049799e73b5c3748a98" category="inline-link-macro"><block ref="f99aa604031e5049799e73b5c3748a98" category="inline-link-rx"></block></block>
@@ -403,4 +399,5 @@
   <block id="dd38f906b37d412de7d1c1dcf4cbf31c" category="paragraph"><block ref="dd38f906b37d412de7d1c1dcf4cbf31c" category="inline-link-macro-rx"></block></block>
   <block id="8acb58cbd50ef1b468a020ee0bd351d3" category="inline-link-macro"><block ref="8acb58cbd50ef1b468a020ee0bd351d3" category="inline-link-rx"></block></block>
   <block id="2352c4e1f4d0024ade0869e00e6243f4" category="paragraph"><block ref="2352c4e1f4d0024ade0869e00e6243f4" category="inline-link-macro-rx"></block></block>
+  <block id="7c9d324d1d8b491ad2ad038c3ae1a08d" category="paragraph"><block ref="88f79bf25d1193134b67da843a562378" category="inline-link-rx"></block> 是一种基于软件的技术、用于一次对一个卷上的空闲数据进行加密。数据， Snapshot 副本和元数据已加密。数据访问由一个唯一的 XTS-AES-256 密钥提供，每个卷一个。</block>
 </blocks>
