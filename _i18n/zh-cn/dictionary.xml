@@ -44,7 +44,6 @@
   <block id="90088be3adb232b22e0087f5c0dfa678" category="list-text">HA 对不支持冷 HDD 。</block>
   <block id="17105d87ead215069c8de1fbcc539db6" category="list-text">在将 EBS SSD 与 Cloud Volumes ONTAP 标准版，高级版和 BYOL 结合使用时，会启用增强的写入性能。</block>
   <block id="a3f8304ab1695053d71855c60f8abf63" category="inline-link">Cloud Volumes 全球地区</block>
-  <block id="4375839c669e051e5f2a8de11ba0c5d0" category="list-text">有关 AWS 区域支持，请参见<block ref="2b6a522631c3b3b8afac5466195e108a" category="inline-link-rx"></block>。</block>
   <block id="2544021bbaa4bc6eadfddbb17edf7811" category="section-title">适用于 Azure 的 Cloud Volumes ONTAP</block>
   <block id="439b8a07189772d0c98983ce22685918" category="paragraph">在 Azure 中，您可以将 Cloud Volumes ONTAP 部署为单节点系统或 HA 对。</block>
   <block id="078325cc35a9c8c9290e445f32bd1855" category="section-title">单节点系统</block>
@@ -58,7 +57,6 @@
   <block id="50bb513ae39b44421d182e4072a83998" category="cell">标准 HDD 受管磁盘，标准 SSD 受管磁盘和高级 SSD 受管磁盘，每个磁盘最多 32 TiB</block>
   <block id="d448e5e37b82dc9cd3ec041340cd7253" category="list-text">DS3_v2 虚拟机类型不支持数据分层。</block>
   <block id="d6b23a41a85f490ae75b43cb4095d8c0" category="list-text">使用 Azure 高级存储磁盘时会启用增强的写入性能，但在使用 DS3_v2 虚拟机类型时不会启用。</block>
-  <block id="7c7627c6477255acb2239bd1be90f346" category="list-text">有关 Azure 区域支持，请参见<block ref="2b6a522631c3b3b8afac5466195e108a" category="inline-link-rx"></block>。</block>
   <block id="b049fcbe8198301adc6bf87634a02845" category="section-title">HA 对</block>
   <block id="a2f04bcb45cecb780dad3d2795f4e080" category="paragraph">在 Azure 中将 Cloud Volumes ONTAP 部署为 HA 对时，您可以从以下配置中进行选择：</block>
   <block id="aa7f77e663b832d5b0e544c5511e680c" category="cell">不支持</block>
@@ -140,7 +138,6 @@
   <block id="bd9f3210b7c4e1dfb162268596a29363" category="list-text">不支持 NFSv4 。支持 NFSv3 。</block>
   <block id="74522068eb4d7b9d888846015e92c07a" category="list-text">某些地区不支持 HA 对。</block>
   <block id="1538d38eb23a96781db500ec7bd30195" category="inline-link">请参见支持的 Azure 区域列表</block>
-  <block id="f5b8e6c4c4b082cf610f078e361a727f" category="paragraph"><block ref="1f129df010c594cb0d37bd30745a3820" category="inline-link-rx"></block>。</block>
   <block id="9c4369ea6b2e29931f30698d49e87679" category="summary">Cloud Volumes ONTAP 9.5 提供了多项新功能和增强功能。</block>
   <block id="eefe5eb049dc65c85c62e0f1c7752611" category="doc">Cloud Volumes ONTAP 9.5 中的新增功能</block>
   <block id="f9d74313da16b2bb412c1d7c5efd0534" category="inline-link">Cloud Manager 发行说明</block>
@@ -182,7 +179,6 @@
   <block id="fe6df44a9d70c01de724da265530b0d2" category="section-title">Azure Central US 地区的 HA 支持（ 2019 年 3 月 25 日）</block>
   <block id="1417340e9f15685d8f4814b72dd81c2d" category="paragraph">HA 对现在在 Azure 的美国中部地区受支持。</block>
   <block id="4a977616fcd7ade62dbf55a1f8db1bd0" category="inline-link">查看受支持 Azure 区域的完整列表</block>
-  <block id="07a1c66013de0c57f2bd7d69d3354c41" category="paragraph"><block ref="0f846b36f06a975303e325a2ffb2c92b" category="inline-link-rx"></block>。</block>
   <block id="a214545074aff7a12db7be5c3411e5f3" category="section-title">9.5 P1 修补程序（ 2019 年 3 月 18 日）</block>
   <block id="86b05ab8e0392045b506cb6f3482ac50" category="paragraph">现在，适用于 Cloud Volumes ONTAP 的 9.5 P1 修补版本可用于所有配置。Cloud Manager 将提示您将现有系统升级到此修补程序版本。</block>
   <block id="e32ea6753fc1e0dc2dafd4f1157260e0" category="paragraph">如果您在 Azure 中已有 HA 对， NetApp 将与您联系以帮助您应用 P1 修补程序版本。</block>
@@ -198,7 +194,6 @@
   <block id="e74523dfd57d69116c6dc03759fe0a7b" category="list-text">位于美国西部</block>
   <block id="a8893363a2924d8d1c0816bdb4a0ee72" category="paragraph">在这些地区进行维护可以防止创建 Cloud Volumes ONTAP 并防止发生故障转移。我们计划在维护完成后立即为这些地区提供支持。</block>
   <block id="bc65177d9fd008caca5b0105a76cd89b" category="inline-link">查看支持的 Azure 区域的完整列表</block>
-  <block id="a98fce804b2db5bb3bc16f3fd91e4894" category="paragraph"><block ref="b01a780abce559d6649a48ba9b858ca7" category="inline-link-rx"></block>。</block>
   <block id="5c3ae5e8064b906f78f689ea334bf839" category="section-title">适用于 AWS 和 Azure 的 9.5 GA （ 2019 年 2 月 4 日）</block>
   <block id="a2a629c8cd8ceb36484d412d0c24dd87" category="paragraph">Cloud Volumes ONTAP 9.5 的通用（ GA ）版本现在可在 AWS 和 Microsoft Azure 中使用（仅适用于 Azure 中的单节点系统）。GA 版本包括稳定性修复， AWS 中新增和弃用的功能以及对系统容量限制的更改。</block>
   <block id="a37b0234f6bd7d4e970efabe8c66add0" category="section-title">所有高级版和 BYOL 配置的容量限制为 368 TB</block>
@@ -399,4 +394,9 @@
   <block id="2352c4e1f4d0024ade0869e00e6243f4" category="paragraph"><block ref="2352c4e1f4d0024ade0869e00e6243f4" category="inline-link-macro-rx"></block></block>
   <block id="7c9d324d1d8b491ad2ad038c3ae1a08d" category="paragraph"><block ref="88f79bf25d1193134b67da843a562378" category="inline-link-rx"></block> 是一种基于软件的技术、用于一次对一个卷上的空闲数据进行加密。数据， Snapshot 副本和元数据已加密。数据访问由一个唯一的 XTS-AES-256 密钥提供，每个卷一个。</block>
   <block id="768e5fecad4c27b08f9ffd5fd34e1330" category="sidebar">Cloud Volumes ONTAP 9.5发行说明</block>
+  <block id="16037845f27c88646572392cae4cc963" category="paragraph"><block ref="26f113c6240bf0450440356676516cf1" category="inline-link-rx"></block>(英文)</block>
+  <block id="045622dfb07c6145c4ccaf9f2078e56b" category="paragraph"><block ref="782e925b243dc89a59a0bc67d50ce99b" category="inline-link-rx"></block>(英文)</block>
+  <block id="f99c30ec26c64d7fcf92dc4cc9aba95f" category="paragraph"><block ref="71d5ab1d1cf6cb7dfc6c6d8e7906da1b" category="inline-link-rx"></block>(英文)</block>
+  <block id="0890aa708cef7529c2bd35cb7d2895df" category="list-text">有关AWS区域支持，请参见<block ref="e55b14db85f4d4837890e415926626e0" category="inline-link-rx"></block>。</block>
+  <block id="f0de068c81c765820aca0fa8fe017396" category="list-text">有关Azure区域支持，请参见<block ref="e55b14db85f4d4837890e415926626e0" category="inline-link-rx"></block>。</block>
 </blocks>

@@ -104,7 +104,7 @@ NOTE: Cloud Volumes ONTAP 不支持在重新启动后重新恢复缓存。
 
 HA 对现在在 Azure 的美国中部地区受支持。
 
-https://cloud.netapp.com/cloud-volumes-global-regions["查看受支持 Azure 区域的完整列表"^]。
+https://bluexp.netapp.com/cloud-volumes-global-regions["查看受支持 Azure 区域的完整列表"^](英文)
 
 
 
@@ -133,7 +133,7 @@ GA 版本可在大多数 Azure 地区使用，但以下情况除外：
 
 在这些地区进行维护可以防止创建 Cloud Volumes ONTAP 并防止发生故障转移。我们计划在维护完成后立即为这些地区提供支持。
 
-https://cloud.netapp.com/cloud-volumes-global-regions["查看支持的 Azure 区域的完整列表"^]。
+https://bluexp.netapp.com/cloud-volumes-global-regions["查看支持的 Azure 区域的完整列表"^](英文)
 
 
 

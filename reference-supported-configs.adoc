@@ -82,7 +82,7 @@ Cloud Volumes ONTAP 在 AWS 和 Azure 中提供两种定价选项：按需购买
 . 选择 EC2 实例类型时，您可以指定它是共享实例还是专用实例。
 . HA 对不支持冷 HDD 。
 . 在将 EBS SSD 与 Cloud Volumes ONTAP 标准版，高级版和 BYOL 结合使用时，会启用增强的写入性能。
-. 有关 AWS 区域支持，请参见 https://cloud.netapp.com/cloud-volumes-global-regions["Cloud Volumes 全球地区"^]。
+. 有关AWS区域支持，请参见 https://bluexp.netapp.com/cloud-volumes-global-regions["Cloud Volumes 全球地区"^]。
 
 
 
@@ -130,7 +130,7 @@ Cloud Volumes ONTAP 在 AWS 和 Azure 中提供两种定价选项：按需购买
 . 如果启用数据分层、系统的容量限制将保持不变。容量限制包括磁盘和对象存储。
 . DS3_v2 虚拟机类型不支持数据分层。
 . 使用 Azure 高级存储磁盘时会启用增强的写入性能，但在使用 DS3_v2 虚拟机类型时不会启用。
-. 有关 Azure 区域支持，请参见 https://cloud.netapp.com/cloud-volumes-global-regions["Cloud Volumes 全球地区"^]。
+. 有关Azure区域支持，请参见 https://bluexp.netapp.com/cloud-volumes-global-regions["Cloud Volumes 全球地区"^]。
 
 
 
@@ -169,5 +169,5 @@ Cloud Volumes ONTAP 在 AWS 和 Azure 中提供两种定价选项：按需购买
 注释：
 
 . HA 对不支持数据分层。
-. 有关 Azure 区域支持，请参见 https://cloud.netapp.com/cloud-volumes-global-regions["Cloud Volumes 全球地区"^]。
+. 有关Azure区域支持，请参见 https://bluexp.netapp.com/cloud-volumes-global-regions["Cloud Volumes 全球地区"^]。
 
